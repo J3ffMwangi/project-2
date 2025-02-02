@@ -30,10 +30,10 @@ public:
         mileage += distance;
         cout << "Car driven for " << distance << " miles. Updated mileage: " << mileage << " miles" << endl;
     }
-}
+};
 
 int main() {
- Car myCar("Toyota", 20000);
+ Car myCar("Toyota", 20000, 0);
 
     cout << "\nDriving the car...\n";
 
