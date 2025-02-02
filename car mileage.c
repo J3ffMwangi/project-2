@@ -36,8 +36,15 @@ int main() {
  Car myCar("Toyota", 20000, 0);
 
     cout << "\nDriving the car...\n";
+  
+    myCar.
+Brand="Toyota "
+Model="Corolla "
+Price="20000"
+Mileage="5000"
 
    myCar.drive(150);
+    myCar.drive(300);
 
 
     return 0;
